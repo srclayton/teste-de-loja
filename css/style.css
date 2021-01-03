@@ -10,10 +10,24 @@
 .img-perfil{border-style: solid; border-radius: 50%;border-width: 2px;border-color: rgb(107, 114, 101);}
 .img-carrinho{height: 30px; text-align: right; margin-top: -15%;}
 .carrinho{text-align: right; margin-top: 2%;}
-
-
-
-
+.cards{text-align: center;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+.container-img-card{
+    height: 250px; 
+    margin: 10%;
+}
+.img-card{
+    max-width: 100%;
+}
+@media (max-width: 576px){
+    .container-img-card{
+        height: 140px;
+    }
+}
+.adc-carrinho{height: 20px; 
+width: 100%;}
 
 
 
