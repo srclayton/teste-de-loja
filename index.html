@@ -10,20 +10,64 @@
         <link rel="stylesheet" type="text/javascript" href="js/java.js"/>
     </head>
     <body>
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-
-      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
+    <header>
+    <div class="background-nav">
+    </div>
+    <div class="nav-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img class="img-perfil" src="img/unknown.png">
           </div>
+          <div class="col carrinho">
+            <button data-toggle="modal" data-target="#modal_aside_left" class="btn" type="button">  <img class="img-carrinho" src="img/sacolas-de-compras(1).png"> 0 itens </button>
+          </div>  
         </div>
       </div>
-      <script src="//onlinegdb.com/embed/js/BkpEeAW_v?theme=dark"></script>
+    </div>
+    
+    </header>
     <script src="js/java.js"> </script>
     <!-- Bootstrap -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- Bootstrap -->
+
+    
+<!-- MODAL DE CARRINHO -->
+<!-- Criador do modal: https://bootstrap-menu.com/detail-modal.html-->
+<div id="modal_aside_left" class="modal fixed-left fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-aside" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Meu carrinho</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4> Carrinho vazio</h4>
+        <img src="img/Stuck at Home - Shopping.png">
+
+      </div>
+      <div class="modal-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <strong> <p class="fw-bolder" style="color: white">Total R$ 0,00</p> </strong>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-primary"> Finalizar compra</button>
+            </div>
+          </div>  
+        </div>
+        <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div> <!-- modal-bialog .// -->
+</div> <!-- modal.// -->
+<!-- MODAL DE CARRINHO -->
     </body>
 </html>

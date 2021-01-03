@@ -1,0 +1,38 @@
+.background-nav{
+    height: 190px;
+    background-color: aquamarine;
+}
+.img-perfil,.nav-bar{
+    height: 85px;
+    background-color:black ;
+}
+
+.img-perfil{border-style: solid; border-radius: 50%;border-width: 2px;border-color: rgb(107, 114, 101);}
+.img-carrinho{height: 30px; text-align: right; margin-top: -15%;}
+.carrinho{text-align: right; margin-top: 2%;}
+
+
+
+
+
+
+
+.btn{color: white;}
+.btn:hover{color: grey;}
+.modal-content{background-color: grey;}
+.modal-footer,.modal-header{background-color: rgb(29, 29, 29); color: grey;}
+.modal-body{background-color: #33383b;color: grey;}
+.modal-header{border-top-left-radius: 15px;border-top-right-radius: 15px;}
+.modal-footer{text-align: center; border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;}
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+.modal .modal-dialog-aside{ 
+    width: 550px; max-width:80%; height: 95%; margin:0;transform: translate(0); transition: transform .2s; margin-top: 2%; margin-right: 1%;
+}
+.modal .modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 15px;}
+.modal .modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
+.modal.fixed-left .modal-dialog-aside{ margin-left:auto;  transform: translateX(100%); }
+.modal.fixed-right .modal-dialog-aside{ margin-right:auto; transform: translateX(-100%); }
+.modal.show .modal-dialog-aside{ transform: translateX(0);  }
